@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3943551575227796075}
   - component: {fileID: 6037072184492571265}
   - component: {fileID: 2770678284386901332}
-  - component: {fileID: 114776305255010342}
+  - component: {fileID: 114916972907844820}
   m_Layer: 0
-  m_Name: Barril_4toB_v1
+  m_Name: Barril
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,7 +64,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: efe6edb94669e0649a8005e4d9c17f77, type: 3}
---- !u!114 &114776305255010342
+--- !u!114 &114916972907844820
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,9 +73,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3943551575227962955}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91a7405f838f5504e9083c3846d517c6, type: 3}
+  m_Script: {fileID: 11500000, guid: fdab563b5a0e9a6448cde63c6de018d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cost: 5
+  moneyManager: {fileID: 0}
 --- !u!1 &7355365099353620255
 GameObject:
   m_ObjectHideFlags: 0
