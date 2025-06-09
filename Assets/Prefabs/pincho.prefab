@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7833948105997216574}
   - component: {fileID: 7833948105997216575}
   - component: {fileID: 7833948105997216572}
+  - component: {fileID: 7018635414227604606}
   m_Layer: 0
   m_Name: pincho
   m_TagString: Untagged
@@ -63,6 +64,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 3a66460cd248027488119e8dc6720711, type: 3}
+--- !u!114 &7018635414227604606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7833948105997216573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27c75dfbf52ba2489c2e8dd9b12bf64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 100
 --- !u!1001 &7833948106237765448
 PrefabInstance:
   m_ObjectHideFlags: 0

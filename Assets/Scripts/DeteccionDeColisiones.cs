@@ -6,7 +6,7 @@ public class DeteccionDeColisiones : MonoBehaviour
 {
     private void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.CompareTag("Player"))
+        if (col.gameObject.CompareTag("PlayerSphere"))
         {
             Destroy(gameObject);
         }
