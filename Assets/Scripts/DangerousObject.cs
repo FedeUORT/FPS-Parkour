@@ -10,11 +10,10 @@ public class DangerousObject : MonoBehaviour
     {
         healthManager = GameObject.FindObjectOfType<HealthManager>();
     }
-    private void OnCollisionEnter(Collision col)
+    private void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            Debug.Log("KDOFK");
             healthManager.Damage(damage);
             Destroy(gameObject);
         }

@@ -8,7 +8,7 @@ public class MoneyManager : MonoBehaviour
     public UIManager uiManager;
     void Start()
     {
-
+        uiManager.UpdateMoneyText(money.ToString());
     }
 
     void Update()
